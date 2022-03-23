@@ -312,8 +312,8 @@ other types of metals and chemistry for reagents).
 	name = "super-capacity"
 	build_type = PROTOLATHE | MECHFAB
 	id = "device_cell_super"
-	req_tech = list(TECH_POWER = 2)
-	materials = list(DEFAULT_WALL_MATERIAL = 70, "glass" = 6)
+	req_tech = list(TECH_POWER = 3)
+	materials = list(DEFAULT_WALL_MATERIAL = 70, "glass" = 7)
 	build_path = /obj/item/weapon/cell/device/super
 	sort_string = "DAAAH"
 
