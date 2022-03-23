@@ -302,11 +302,20 @@ other types of metals and chemistry for reagents).
 /datum/design/item/powercell/device/high
 	name = "high-capacity"
 	build_type = PROTOLATHE | MECHFAB
-	id = "device_cell_high"
+	id = "device_cell_super"
 	req_tech = list(TECH_POWER = 2)
 	materials = list(DEFAULT_WALL_MATERIAL = 70, "glass" = 6)
 	build_path = /obj/item/weapon/cell/device/high
 	sort_string = "DAAAG"
+
+/datum/design/item/powercell/device/super
+	name = "super-capacity"
+	build_type = PROTOLATHE | MECHFAB
+	id = "device_cell_super"
+	req_tech = list(TECH_POWER = 2)
+	materials = list(DEFAULT_WALL_MATERIAL = 70, "glass" = 6)
+	build_path = /obj/item/weapon/cell/device/super
+	sort_string = "DAAAH"
 
 /datum/design/item/hud
 	materials = list(DEFAULT_WALL_MATERIAL = 50, "glass" = 50)
