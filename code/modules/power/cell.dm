@@ -150,8 +150,8 @@
 	maxcharge = 150
 	matter = list("metal" = 70, "glass" = 6)
 
-/obj/item/weapon/cell/device/super
-	name = "superior device power cell"
+/obj/item/weapon/cell/device/premium
+	name = "premium device power cell"
 	desc = "A small power cell designed to power the most energy-demanding devices."
 	icon_state = "hdevice"
 	maxcharge = 200
