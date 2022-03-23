@@ -308,13 +308,13 @@ other types of metals and chemistry for reagents).
 	build_path = /obj/item/weapon/cell/device/high
 	sort_string = "DAAAG"
 
-/datum/design/item/powercell/device/super
-	name = "super-capacity"
+/datum/design/item/powercell/device/premium
+	name = "premium-capacity"
 	build_type = PROTOLATHE | MECHFAB
-	id = "device_cell_super"
+	id = "device_cell_premium"
 	req_tech = list(TECH_POWER = 3)
 	materials = list(DEFAULT_WALL_MATERIAL = 70, "glass" = 7)
-	build_path = /obj/item/weapon/cell/device/super
+	build_path = /obj/item/weapon/cell/device/premium
 	sort_string = "DAAAH"
 
 /datum/design/item/hud
