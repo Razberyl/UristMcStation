@@ -141,20 +141,20 @@
 
 /obj/item/weapon/cell/device/standard
 	name = "standard device power cell"
-	maxcharge = 25
+	maxcharge = 100
 
 /obj/item/weapon/cell/device/high
 	name = "advanced device power cell"
 	desc = "A small power cell designed to power more energy-demanding devices."
 	icon_state = "hdevice"
-	maxcharge = 100
+	maxcharge = 150
 	matter = list("metal" = 70, "glass" = 6)
 
 /obj/item/weapon/cell/crap
 	name = "old power cell"
 	desc = "A cheap old power cell. It's probably been in use for quite some time now."
 	origin_tech = list(TECH_POWER = 0)
-	maxcharge = 100
+	maxcharge = 200
 	matter = list(DEFAULT_WALL_MATERIAL = 700, "glass" = 40)
 
 /obj/item/weapon/cell/crap/empty
