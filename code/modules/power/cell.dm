@@ -150,11 +150,18 @@
 	maxcharge = 150
 	matter = list("metal" = 70, "glass" = 6)
 
+/obj/item/weapon/cell/device/super
+	name = "superior device power cell"
+	desc = "A small power cell designed to power the most energy-demanding devices."
+	icon_state = "hdevice"
+	maxcharge = 200
+	matter = list("metal" = 70, "glass" = 7)
+
 /obj/item/weapon/cell/crap
 	name = "old power cell"
 	desc = "A cheap old power cell. It's probably been in use for quite some time now."
 	origin_tech = list(TECH_POWER = 0)
-	maxcharge = 200
+	maxcharge = 100
 	matter = list(DEFAULT_WALL_MATERIAL = 700, "glass" = 40)
 
 /obj/item/weapon/cell/crap/empty
